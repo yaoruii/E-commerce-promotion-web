@@ -16,7 +16,7 @@
 <!--            <property name="forceBigDecimals" value="false" />-->
 <!--        </javaTypeResolver>-->
         <!-- model: 数据库对应到java的data object类,这里指定生成的model的存放位置-->
-        <javaModelGenerator targetPackage="com.miaoshaproject.dataobject" targetProject="src/main/java">
+        <javaModelGenerator targetPackage="com.promotionproject.dataobject" targetProject="src/main/java">
             <property name="enableSubPackages" value="true" />
             <property name="trimStrings" value="true" />
         </javaModelGenerator>
@@ -25,7 +25,7 @@
             <property name="enableSubPackages" value="true" />
         </sqlMapGenerator>
         <!--指定生成dao类的存放位置 -->
-        <javaClientGenerator type="XMLMAPPER" targetPackage="com.miaoshaproject.dao"  targetProject="src/main/java">
+        <javaClientGenerator type="XMLMAPPER" targetPackage="com.promotionproject.dao" targetProject="src/main/java">
             <property name="enableSubPackages" value="true" />
         </javaClientGenerator>
 
