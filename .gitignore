@@ -1,0 +1,49 @@
+**/target/
+!.mvn/wrapper/maven-wrapper.jar
+.DS_Store
+ConfigRoot/
+
+mybatis-config.xml
+JasyptTest.java
+
+### raptor ###
+raptor.xml
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/build/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+### Intellij ###
+/ws/
+
+
+SensitiveParameters.xml
+tree.txt
+clientconfig
+enevelopeapi
+esamscache
+nameservice
+temp_persist_config_*.xml
+TomcatThreadPoolSizeBean
+XslTransformObjectCacheConfig64.xml
+ThreadLocalFlushBean.xml
+TrustFabricHandlerConfigBean
+velocity.log*
